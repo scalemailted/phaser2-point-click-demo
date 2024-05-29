@@ -1,0 +1,34 @@
+{
+    "frames": {
+        "room2 (1).png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 268,
+                "h": 352
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 268,
+                "h": 352
+            },
+            "sourceSize": {
+                "w": 268,
+                "h": 352
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "targetZoneAnimation53102158.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 268,
+            "h": 352
+        },
+        "scale": 1
+    }
+}
