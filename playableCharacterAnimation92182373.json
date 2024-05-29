@@ -1,0 +1,34 @@
+{
+    "frames": {
+        "LK_Girl_Character_IDLE_FRONT01.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "playableCharacterAnimation92182373.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 230,
+            "h": 230
+        },
+        "scale": 1
+    }
+}

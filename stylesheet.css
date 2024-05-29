@@ -1,0 +1,111 @@
+@import "fonts.css";
+
+
+
+.adsbygoogle
+{
+	position: absolute;
+	z-index: 200;
+}
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #000000;
+    font-family: "uiFont";
+}
+		
+		
+body.grey
+{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+		
+		
+		 canvas {
+                      image-rendering: optimizeSpeed;
+                      -webkit-interpolation-mode: nearest-neighbor;
+                      margin: 0px;
+                      padding: 0px;
+                      border: 0px;
+					  position: relative;
+					  z-index: 100;
+            }
+            :-webkit-full-screen #canvas {
+                 width: 100%;
+                 height: 100%;
+            }
+		
+		
+		#shareOptions {background: #A2D8E0; position: fixed; top: 0px; left: 0px; right: 0px; padding: 10px; z-index: 3000;}
+		#shareOptions .mainHeading {display: inline-block; vertical-align: middle;margin-right: 30px; font-size: 90%;}
+		.googleLikeButton {display: inline-block; vertical-align: middle;margin-right: 15px;}
+		.lt-ie8 .googleLikeButton {display: inline;}
+		.facebookLikeButton {display: inline-block; vertical-align: middle;}
+		.lt-ie8 .facebookLikeButton {display: inline;}
+		
+		/* Turn off on mobile START */
+		@media only screen and (max-width: 720px)
+		{
+			#shareOptions {display: none;}
+		}
+		/* Turn off on mobile END */
+
+
+
+
+
+
+#verticalAndHorizontalAlignmentContainer1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    z-index: 2000;
+    
+}
+#verticalAndHorizontalAlignmentContainer2 {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#verticalAndHorizontalAlignmentContainer3 {display:  table-cell; vertical-align:  middle; text-align: center;}
+
+
+/* Change orientation notice START */
+#changeOrientation{position: fixed;top: 0px;left: 0px;right: 0px;bottom: 0px;background-color: #000000;z-index: 30000;text-align: center;line-height: 110%; display: none;}
+#changeOrientationContent{display: table; width: 100%; height: 100%;}
+#changeOrientationContentInner{ display: table-cell;vertical-align: middle;}
+#changeOrientationText {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+#changeOrientationIcon {
+    width: 260px;
+    height: 146px;
+    margin: 0 auto 20px auto;
+    background: url( "changeOrientationIcon.png" ) no-repeat center center;
+    background-size: contain;
+}
+/* Change orientation notice END */
+        
+        
+
+
+        
+        
+/* Show a 'change orientation screen' for people who have their device as porttrait START */
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (orientation : portrait) {
+	#changeOrientation {display: block;}
+}
+/* Show a 'change orientation screen' for people who have their device as porttrait END */

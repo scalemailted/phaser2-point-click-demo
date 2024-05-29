@@ -1,0 +1,4537 @@
+{
+  "globalVars": [],
+  "defaultUserSettings": {
+    "volumes": {
+      "musicVolume": 0.5,
+      "sfxVolume": 0.5,
+      "voicesVolume": 1
+    },
+    "currentLanguage": "en",
+    "speechMode": 2,
+    "textSize": {
+      "interface": 1,
+      "min": 22,
+      "max": 34
+    },
+    "speechTextSpeed": 1
+  },
+  "fonts": [
+    {
+      "id": 90667322,
+      "refName": "Pixel Font",
+      "fontUpload": null,
+      "filePath": "font6387907.ttf"
+    }
+  ],
+  "systemText": [
+    {
+      "id": 19695289,
+      "key": "playGame",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Play Game"
+        }
+      }
+    },
+    {
+      "id": 19835440,
+      "key": "newGame",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "New Game"
+        }
+      }
+    },
+    {
+      "id": 19963029,
+      "key": "skip",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Skip"
+        }
+      }
+    },
+    {
+      "id": 19982260,
+      "key": "walkTo",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Walk to"
+        }
+      }
+    },
+    {
+      "id": 20000996,
+      "key": "lookAt",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Look at"
+        }
+      }
+    },
+    {
+      "id": 20028262,
+      "key": "pickUp",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Pick up"
+        }
+      }
+    },
+    {
+      "id": 20050883,
+      "key": "talkTo",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Talk to"
+        }
+      }
+    },
+    {
+      "id": 20072059,
+      "key": "open",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Open"
+        }
+      }
+    },
+    {
+      "id": 20094114,
+      "key": "close",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Close"
+        }
+      }
+    },
+    {
+      "id": 20113291,
+      "key": "push",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Push"
+        }
+      }
+    },
+    {
+      "id": 20134754,
+      "key": "pull",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Pull"
+        }
+      }
+    },
+    {
+      "id": 20154937,
+      "key": "give",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Give"
+        }
+      }
+    },
+    {
+      "id": 20176137,
+      "key": "use",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Use"
+        }
+      }
+    },
+    {
+      "id": 20193913,
+      "key": "on",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "on"
+        }
+      }
+    },
+    {
+      "id": 20207305,
+      "key": "to",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "to"
+        }
+      }
+    },
+    {
+      "id": 20223529,
+      "key": "credits",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Credits"
+        }
+      }
+    },
+    {
+      "id": 20241337,
+      "key": "back",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Back"
+        }
+      }
+    },
+    {
+      "id": 20255833,
+      "key": "combineItemsInstructionText",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Combine items by dragging and dropping them together"
+        }
+      }
+    },
+    {
+      "id": 20275009,
+      "key": "volumes",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Volumes"
+        }
+      }
+    },
+    {
+      "id": 93798264,
+      "key": "loadGame",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Load Game"
+        }
+      }
+    },
+    {
+      "id": 93816024,
+      "key": "saveGame",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Save Game"
+        }
+      }
+    },
+    {
+      "id": 53202212,
+      "key": "saveCurrentGameToThisSlot",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Save current Game to this Slot"
+        }
+      }
+    },
+    {
+      "id": 53447020,
+      "key": "autosave",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Autosave"
+        }
+      }
+    },
+    {
+      "id": 62472135,
+      "key": "confirmOverwriteGameSlot",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Please confirm that you wish to overwrite this game slot"
+        }
+      }
+    },
+    {
+      "id": 62991840,
+      "key": "yes",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Yes"
+        }
+      }
+    },
+    {
+      "id": 63013014,
+      "key": "no",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "No"
+        }
+      }
+    },
+    {
+      "id": 33177472,
+      "key": "thanksForPlaying",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Thanks for Playing"
+        }
+      }
+    },
+    {
+      "id": 33215152,
+      "key": "playAgain",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Play Again"
+        }
+      }
+    },
+    {
+      "id": 19753772,
+      "key": "music",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Music"
+        }
+      }
+    },
+    {
+      "id": 19772066,
+      "key": "sfx",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "SFX"
+        }
+      }
+    },
+    {
+      "id": 19798345,
+      "key": "voices",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Voices"
+        }
+      }
+    },
+    {
+      "id": 2812816,
+      "key": "startGame",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Start Game"
+        }
+      }
+    },
+    {
+      "id": 51342003,
+      "key": "notAccessibleOnMap",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "That area is not accessible at this time"
+        }
+      }
+    },
+    {
+      "id": 51505900,
+      "key": "mapNotRelevant",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "This map isn't relevant to where I am"
+        }
+      }
+    },
+    {
+      "id": 58607777,
+      "key": "textAndSpeech",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Text and Speech"
+        }
+      }
+    },
+    {
+      "id": 59409481,
+      "key": "interfaceTextSize",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Interface Text Size"
+        }
+      }
+    },
+    {
+      "id": 59437478,
+      "key": "speechTextSpeed",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Speech Text Speed"
+        }
+      }
+    },
+    {
+      "id": 59574617,
+      "key": "language",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Language"
+        }
+      }
+    },
+    {
+      "id": 60275960,
+      "key": "tapToChange",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Tap to Change"
+        }
+      }
+    },
+    {
+      "id": 1851330,
+      "key": "speechMode",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Speech Mode"
+        }
+      }
+    },
+    {
+      "id": 1085221,
+      "key": "options",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Options"
+        }
+      }
+    },
+    {
+      "id": 51770348,
+      "key": "loadOrSaveGame",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Load / Save Game"
+        }
+      }
+    },
+    {
+      "id": 60387850,
+      "key": "instructions",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Instructions"
+        }
+      }
+    },
+    {
+      "id": 81067257,
+      "key": "hearVoiceAndViewSpeechText",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Hear voice and view speech text"
+        }
+      }
+    },
+    {
+      "id": 64870643,
+      "key": "hearVoiceOnly",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Hear voice only"
+        }
+      }
+    },
+    {
+      "id": 66506622,
+      "key": "viewSpeechTextOnly",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "View speech text only"
+        }
+      }
+    },
+    {
+      "id": 59277926,
+      "key": "pleaseWait",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Please wait"
+        }
+      }
+    },
+    {
+      "id": 97682485,
+      "key": "loading",
+      "required": true,
+      "languages": {
+        "en": {
+          "value": "Loading"
+        }
+      }
+    },
+    {
+      "id": 51034831,
+      "key": "thankYouToContributors",
+      "required": false,
+      "languages": {
+        "en": {
+          "value": "We would like to say a big massive thank you to all our contributors. We have incredibly highly skilled artists, musicians and voice over artists whose tireless efforts have made this project a success!"
+        }
+      }
+    }
+  ],
+  "systemSettings": {
+    "instructions": [
+      {
+        "id": 123,
+        "refName": "Page 1",
+        "backgroundImageId": 74755820,
+        "textBlocks": [
+          {
+            "id": 849037,
+            "textColor": "#ffffff",
+            "textPosition": {
+              "x": 255,
+              "y": 551
+            },
+            "width": 660,
+            "textAngle": 0,
+            "languages": {
+              "en": {
+                "fontId": 90667322,
+                "fontSize": 17,
+                "lineSpacing": -4,
+                "text": "Tap to scan room for interactable objects."
+              }
+            }
+          },
+          {
+            "id": 84774669,
+            "textColor": "#ffffff",
+            "textPosition": {
+              "x": 496,
+              "y": 150
+            },
+            "width": 460,
+            "textAngle": 0,
+            "languages": {
+              "en": {
+                "fontId": 90667322,
+                "fontSize": 17,
+                "lineSpacing": -4,
+                "text": "Interact with characters and objects in the main view."
+              }
+            }
+          }
+        ],
+        "pagination": {
+          "leftArrow": {
+            "imageId": 29061704,
+            "position": {
+              "x": 105,
+              "y": 333
+            }
+          },
+          "rightArrow": {
+            "imageId": 55893157,
+            "position": {
+              "x": 1104,
+              "y": 333
+            }
+          }
+        }
+      },
+      {
+        "id": 39554890,
+        "refName": "Page 2",
+        "backgroundImageId": 52358659,
+        "textBlocks": [
+          {
+            "id": 6379822,
+            "textColor": "#ffffff",
+            "textPosition": {
+              "x": 371,
+              "y": 567
+            },
+            "width": 660,
+            "textAngle": 0,
+            "languages": {
+              "en": {
+                "fontId": 90667322,
+                "fontSize": 17,
+                "lineSpacing": -4,
+                "text": "Tap on the screen to walk to a location."
+              }
+            }
+          }
+        ],
+        "pagination": {
+          "leftArrow": {
+            "imageId": 29061704,
+            "position": {
+              "x": 105,
+              "y": 333
+            }
+          },
+          "rightArrow": {
+            "imageId": 55893157,
+            "position": {
+              "x": 1104,
+              "y": 333
+            }
+          }
+        }
+      },
+      {
+        "id": 20750990,
+        "refName": "Page 3",
+        "backgroundImageId": 1121269,
+        "textBlocks": [
+          {
+            "id": 36327880,
+            "textColor": "#ffffff",
+            "textPosition": {
+              "x": 205,
+              "y": 507
+            },
+            "width": 455,
+            "textAngle": 0,
+            "languages": {
+              "en": {
+                "fontId": 90667322,
+                "fontSize": 17,
+                "lineSpacing": -4,
+                "text": "Tap on an object or character to be shown available actions to interact with it."
+              }
+            }
+          }
+        ],
+        "pagination": {
+          "leftArrow": {
+            "imageId": 29061704,
+            "position": {
+              "x": 105,
+              "y": 333
+            }
+          },
+          "rightArrow": {
+            "imageId": 55893157,
+            "position": {
+              "x": 1104,
+              "y": 333
+            }
+          }
+        }
+      },
+      {
+        "id": 4190998,
+        "refName": "Page 4",
+        "backgroundImageId": 17166819,
+        "textBlocks": [
+          {
+            "id": 44296112,
+            "textColor": "#ffffff",
+            "textPosition": {
+              "x": 216,
+              "y": 576
+            },
+            "width": 660,
+            "textAngle": 0,
+            "languages": {
+              "en": {
+                "fontId": 90667322,
+                "fontSize": 17,
+                "lineSpacing": -4,
+                "text": "Items your character has picked up are here."
+              }
+            }
+          },
+          {
+            "id": 26857880,
+            "textColor": "#ffffff",
+            "textPosition": {
+              "x": 900,
+              "y": 304
+            },
+            "width": 162,
+            "textAngle": 0,
+            "languages": {
+              "en": {
+                "fontId": 90667322,
+                "fontSize": 17,
+                "lineSpacing": -4,
+                "text": "Tap to open up the current playable character's inventory."
+              }
+            }
+          }
+        ],
+        "pagination": {
+          "leftArrow": {
+            "imageId": 29061704,
+            "position": {
+              "x": 105,
+              "y": 333
+            }
+          },
+          "rightArrow": {
+            "imageId": 55893157,
+            "position": {
+              "x": 1104,
+              "y": 333
+            }
+          }
+        }
+      }
+    ],
+    "storageName": "WitchsHouse01",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "companyInfo": {
+      "name": "Andy Howard",
+      "latitude": 51.3903307,
+      "longitude": -0.7372717999999999
+    },
+    "startingScreen": {
+      "type": 1,
+      "cutSceneId": 4649467667
+    },
+    "introMadeBy": {
+      "enable": true,
+      "code": {
+        "create": "this.stage.backgroundColor = '#FFF';\r\n\r\nthis.andyHowardLogo = this.game.add.sprite(100, 100, \"introMadeByImage1607374147263\");\r\nthis.andyHowardLogo.anchor.x = Math.round(this.andyHowardLogo.width * 0.5) / this.andyHowardLogo.width;\r\nthis.andyHowardLogo.anchor.y = Math.round(this.andyHowardLogo.height * 0.5) / this.andyHowardLogo.height;\r\nthis.andyHowardLogo.x = this.game.width/2;\r\nthis.andyHowardLogo.y = this.game.height/2;\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n/* Flamingo START */\r\nthis.flamingoRunning = this.game.add.sprite(1100, 430);\r\nthis.game.physics.arcade.enable(this.flamingoRunning);\r\n\r\nthis.flamingoRunning.loadTexture(\"introMadeByAnimation1607374294207\", 0);\r\nthis.flamingoRunning.animations.add(\"introMadeByAnimation1607374294207\");\r\nthis.flamingoRunning.animations.play(\"introMadeByAnimation1607374294207\", 14, true);\r\n\r\nvar runningAnim = this.game.add.tween(this.flamingoRunning).to({x: -280}, 4000);\r\nrunningAnim.start();\r\n\t\t\t\t\t\t\r\nrunningAnim.onComplete.add(function() {\r\n\tthis.endScene();\r\n}, this);\r\n/* Flamingo END */",
+        "update": ""
+      },
+      "loadingImages": [
+        {
+          "id": 1607374147263,
+          "imageUpload": null,
+          "imagePath": "introMadeByImage1607374151200.png"
+        }
+      ],
+      "loadingAnimations": [
+        {
+          "id": 1607374294207,
+          "refName": "Flamingo Running",
+          "numberOfFrames": 10,
+          "filesUploaded": true,
+          "filePath": "introMadeByAnimation1607460219595"
+        }
+      ],
+      "loadingMusic": []
+    },
+    "gameplaySettings": {
+      "format": 0,
+      "formatOptions": {
+        "inventoryScrollAmount": 3,
+        "placeholders": [
+          {
+            "id": 57323196,
+            "x": 458,
+            "y": 261
+          },
+          {
+            "id": 17265699,
+            "x": 630,
+            "y": 261
+          },
+          {
+            "id": 5663952,
+            "x": 801,
+            "y": 261
+          },
+          {
+            "id": 50320621,
+            "x": 458,
+            "y": 371
+          },
+          {
+            "id": 20892570,
+            "x": 628,
+            "y": 371
+          },
+          {
+            "id": 95701328,
+            "x": 801,
+            "y": 371
+          },
+          {
+            "id": 39109703,
+            "x": 458,
+            "y": 481
+          },
+          {
+            "id": 70534195,
+            "x": 628,
+            "y": 481
+          },
+          {
+            "id": 21296667,
+            "x": 801,
+            "y": 481
+          }
+        ],
+        "compassPositions": {
+          "minX": 110,
+          "maxX": 1140,
+          "minY": 120,
+          "maxY": 500
+        },
+        "inventoryScrollBars": {
+          "top": {
+            "topLeft": {
+              "x": 338,
+              "y": 147
+            },
+            "topRight": {
+              "x": 936,
+              "y": 146
+            },
+            "bottomRight": {
+              "x": 936,
+              "y": 212
+            },
+            "bottomLeft": {
+              "x": 336,
+              "y": 213
+            }
+          },
+          "bottom": {
+            "topLeft": {
+              "x": 329,
+              "y": 549
+            },
+            "topRight": {
+              "x": 942,
+              "y": 548
+            },
+            "bottomRight": {
+              "x": 941,
+              "y": 609
+            },
+            "bottomLeft": {
+              "x": 328,
+              "y": 609
+            }
+          }
+        },
+        "uiIconPositions": {
+          "chest": {
+            "x": 1175,
+            "y": 622
+          },
+          "inventoryBackground": {
+            "x": 328,
+            "y": 146
+          },
+          "upArrow": {
+            "x": 285,
+            "y": 222
+          },
+          "downArrow": {
+            "x": 285,
+            "y": 333
+          },
+          "lookAt": {
+            "x": 909,
+            "y": 222
+          },
+          "use": {
+            "x": 909,
+            "y": 333
+          },
+          "give": {
+            "x": 909,
+            "y": 444
+          }
+        }
+      },
+      "uiIcons": {
+        "uiChestUpload": null,
+        "uiChest": "systemImageUiChest.png",
+        "uiCloseUpload": null,
+        "uiClose": "systemImageUiClose.png",
+        "uiGiveUpload": null,
+        "uiGive": "systemImageUiGive.png",
+        "uiLookAtUpload": null,
+        "uiLookAt": "systemImageUiLookAt.png",
+        "uiOpenUpload": null,
+        "uiOpen": "systemImageUiOpen.png",
+        "uiPickUpUpload": null,
+        "uiPickUp": "systemImageUiPickUp.png",
+        "uiPullUpload": null,
+        "uiPull": "systemImageUiPull.png",
+        "uiPushUpload": null,
+        "uiPush": "systemImageUiPush.png",
+        "uiTalkToUpload": null,
+        "uiTalkTo": "systemImageUiTalkTo.png",
+        "uiUseUpload": null,
+        "uiUse": "systemImageUiUse.png",
+        "uiWalkToUpload": null,
+        "uiWalkTo": "systemImageUiWalkTo.png",
+        "uiCompassNavBackgroundUpload": null,
+        "uiCompassNavBackground": "systemImageUiCompassNavBackground.png",
+        "uiCurrentPlayerIndicatorUpload": null,
+        "uiCurrentPlayerIndicator": "systemImageUiCurrentPlayerIndicator.png",
+        "uiInventoryBoxUpload": null,
+        "uiInventoryBox": "systemImageUiInventoryBox-95107809.png",
+        "uiInventoryDownArrowUpload": null,
+        "uiInventoryDownArrow": "systemImageUiInventoryDownArrow-46386063.png",
+        "uiInventoryPlaceholderUpload": null,
+        "uiInventoryPlaceholder": "systemImageUiInventoryPlaceholder-105926.png",
+        "uiInventoryPlaceholderAnchorPointX": 0.5,
+        "uiInventoryPlaceholderAnchorPointY": 0.5,
+        "uiInventoryUpArrowUpload": null,
+        "uiInventoryUpArrow": "systemImageUiInventoryUpArrow-82665945.png",
+        "uiSettingsButtonUpload": null,
+        "uiSettingsButton": "systemImageUiSettingsButton-431764646.png",
+        "uiSettingsButtonX": 1175,
+        "uiSettingsButtonY": 26,
+        "uiTapPointerUpload": null,
+        "uiTapPointer": "systemImageUiTapPointer.png",
+        "uiMagnifyingGlassUpload": null,
+        "uiMagnifyingGlass": "systemImageUiMagnifyingGlass.png",
+        "uiMagnifyingGlassShow": true,
+        "uiMagnifyingGlassX": 1062,
+        "uiMagnifyingGlassY": 622
+      },
+      "uiSounds": {
+        "openInventory": "wavesurfer_47bc3ue16h8",
+        "openSettings": "wavesurfer_eo3ko3qc0p8",
+        "openPointsOfInterest": "wavesurfer_a1rrc1mp268",
+        "inventoryArrows": "wavesurfer_a1rrc1mp268",
+        "switchPlayableCharacter": "wavesurfer_a1rrc1mp268",
+        "openOptionsForPointsOfInterest": "wavesurfer_a1rrc1mp268",
+        "selectAction": "wavesurfer_a1rrc1mp268",
+        "backAndSkipLinks": "wavesurfer_a1rrc1mp268",
+        "documentArrows": "wavesurfer_a1rrc1mp268"
+      },
+      "uiText": {
+        "backAndSkipLinks": {
+          "textColor": "#ffffff",
+          "textColorAdditional": "#adabaf",
+          "x": 45,
+          "y": 26,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 40,
+              "lineSpacing": 0
+            }
+          }
+        },
+        "dialogText": {
+          "width": 380,
+          "stroke": {
+            "show": true,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 20,
+              "lineSpacing": -6
+            }
+          }
+        },
+        "hoverText": {
+          "textColor": "#ffffff",
+          "textColorAdditional": "#adabaf",
+          "width": 200,
+          "stroke": {
+            "show": true,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 14,
+              "lineSpacing": -6
+            }
+          }
+        },
+        "verbText": {
+          "textColor": "#ffffff",
+          "textColorAdditional": "#adabaf",
+          "width": 200,
+          "stroke": {
+            "show": true,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": -6
+            }
+          }
+        },
+        "combineItemsText": {
+          "textColor": "#ffffff",
+          "textColorAdditional": "#adabaf",
+          "x": 630,
+          "y": 61,
+          "width": 680,
+          "stroke": {
+            "show": true,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 19,
+              "lineSpacing": -2
+            }
+          }
+        },
+        "actionsText": {
+          "textColor": "#ffffff",
+          "textColorAdditional": "#adabaf",
+          "x": 630,
+          "y": 16,
+          "width": 660,
+          "stroke": {
+            "show": true,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": -6
+            }
+          }
+        },
+        "narratorText": {
+          "textColor": "#c9a6ef",
+          "textColorAdditional": "#782ec2",
+          "x": 630,
+          "y": 96,
+          "width": 660,
+          "stroke": {
+            "show": true,
+            "color": "#ffffff",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 24,
+              "lineSpacing": -6
+            }
+          }
+        },
+        "questionsText": {
+          "textColor": "#4892c8",
+          "textColorAdditional": "#1e4d6f",
+          "textColorHoverOver": "#ffffff",
+          "x": 20,
+          "y": 560,
+          "width": 980,
+          "itemGap": 20,
+          "stroke": {
+            "show": true,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 20,
+              "lineSpacing": 0
+            }
+          }
+        }
+      },
+      "otherSettings": {
+        "timeDelayBetweenActorsVoices": 0.5,
+        "cameraFollowDelay": 0.04,
+        "pixelsPerSecondForMap": 180,
+        "avatarIcons": {
+          "startingXPos": 20,
+          "startingYPos": 20,
+          "orientationMode": 0,
+          "iconGap": 20
+        }
+      }
+    },
+    "titleCard": {
+      "code": {
+        "create": "",
+        "update": ""
+      },
+      "loadingImages": [],
+      "loadingAnimations": [],
+      "titleCardUpload": null,
+      "titleCard": "systemImageTitleCard-96131578.png",
+      "textBlocks": [
+        {
+          "id": 12345,
+          "systemTextId": 20223529,
+          "textColor": "#ffffff",
+          "x": 45,
+          "y": 26,
+          "centerToStage": false,
+          "align": 0,
+          "width": 300,
+          "linkToScene": 0,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": -1,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1608230892686,
+          "systemTextId": 2812816,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 658,
+          "centerToStage": true,
+          "align": 1,
+          "width": 700,
+          "linkToScene": 1,
+          "foleySoundIdOnTap": "wavesurfer_igsgkbkd2p",
+          "impactType": 0,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 40,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "roomLoadingScene": {
+      "code": {
+        "create": "function startFootPrints(n) {\r\n\r\n    var a = startingAngle * Math.PI / 180;\r\n    var c = Math.cos(a), s = Math.sin(a);\r\n\r\n    // current foot\r\n    var d = startingFoot * (1 - 2 * (n % 2));\r\n\r\n    // apply equations\r\n    var footprintX = Math.round(\r\n    startingPosX +             // initial\r\n    stepSize * n * c +         // step\r\n    stepWidth * 0.5 * d * s    // foot offset\r\n    );\r\n    var footprintY = Math.round(\r\n        startingPosY +             // initial\r\n        stepSize * n * s -         // step\r\n        stepWidth * 0.5 * d * c    // foot offset\r\n    );\r\n    \r\n    var footPrint = game.add.sprite(0, 0, 'roomLoadingSceneImage602460944');\r\n    footPrint.anchor.x = Math.round(footPrint.width * 0.5) / footPrint.width;\r\n    footPrint.anchor.y = Math.round(footPrint.height * 0.5) / footPrint.height;\r\n    footPrint.x = footprintX;\r\n    footPrint.y = footprintY;\r\n    footPrint.pivot.x = Math.round(footPrint.width * 0.5) / footPrint.width;\r\n    footPrint.pivot.y = Math.round(footPrint.height * 0.5) / footPrint.height;\r\n    footPrint.angle = startingAngle;\r\n    footPrint.alpha = 0;\r\n\r\n    /* Footprints start on the left side initially, if it's a right hand one, then flip it START */\r\n    if ((startingFootPrintLeft == false))\r\n    {\r\n        footPrint.scale.y *= -1;\r\n    }\r\n    /* Footprints start on the left side initially, if it's a right hand one, then flip it END */\r\n\r\n\r\n    var fadeInTransition = game.add.tween(footPrint).to({ alpha: 0.5 }, 1000, Phaser.Easing.none).start();\r\n    var fadeOutTransition = game.add.tween(footPrint).to({ alpha: 0 }, 1000, Phaser.Easing.none);\r\n    fadeInTransition.onComplete.add(function () {\r\n\r\n        if ((startingFootPrintLeft == true))\r\n        {\r\n            startingFootPrintLeft = false;\r\n        }\r\n        else\r\n        {\r\n            startingFootPrintLeft = true;\r\n        }\r\n\r\n\r\n        if ((footPrint.x > systemSettings.resolution.width) || (footPrint.x < 0) || (footPrint.y > systemSettings.resolution.height) || (footPrint.y < 0))\r\n        {\r\n            setNewFootPrintPathFigures();\r\n            startFootPrints(0);\r\n        }\r\n        else\r\n        {\r\n            startFootPrints(n+1);\r\n        }\r\n        \r\n        fadeOutTransition.start();\r\n\r\n    }, this);\r\n\r\n}\r\n\r\nfunction setNewFootPrintPathFigures(){\r\n/* Vars START */\r\nstartingPosX = Math.floor(Math.random() * 1000) + 20;\r\nstartingPosY  = Math.floor(Math.random() * 560) + 20;\r\nstartingAngle = Math.floor(Math.random() * 340) + 20;\r\nstartingFoot = 1;   // 1 = left, -1 = right\r\nstartingFootPrintLeft = true;\r\nstepSize = 120;\r\nstepWidth = 60;\r\n/* Vars END */\r\n}\r\n\r\n\r\nthis.stage.backgroundColor = '#000';\r\n\r\nvar startingPosX;\r\nvar startingPosY;\r\nvar startingAngle;\r\nvar startingFoot;\r\nvar startingFootPrintLeft;\r\nvar stepSize;\r\nvar stepWidth;\r\nsetNewFootPrintPathFigures();\r\n\r\nthis.game.time.events.add(Phaser.Timer.SECOND * 2, function () { startFootPrints(0) }, this);\r\n\r\n\r\n",
+        "update": ""
+      },
+      "loadingImages": [
+        {
+          "id": 602460944,
+          "imageUpload": null,
+          "imagePath": "roomLoadingSceneImage504974697.png"
+        }
+      ],
+      "loadingAnimations": [],
+      "roomLoadingSceneUpload": null,
+      "roomLoadingScene": "systemImageRoomLoadingScene-91781926.png",
+      "textBlocks": []
+    },
+    "options": {
+      "code": {
+        "create": "",
+        "update": ""
+      },
+      "loadingImages": [],
+      "loadingAnimations": [],
+      "musicId": 98320417,
+      "musicLoop": true,
+      "optionsUpload": null,
+      "options": "systemImageOptions-28477922.png",
+      "textBlocks": [
+        {
+          "id": 1608543861138,
+          "systemTextId": 19835440,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 421,
+          "centerToStage": true,
+          "align": 1,
+          "width": 600,
+          "linkToScene": 2,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": 0,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1608543937040,
+          "systemTextId": 93798264,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 350,
+          "centerToStage": true,
+          "align": 1,
+          "width": 600,
+          "linkToScene": 3,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": 0,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 699804751,
+          "systemTextId": 60387850,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 634,
+          "centerToStage": true,
+          "align": 1,
+          "width": 600,
+          "linkToScene": 7,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": 0,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 98243030,
+          "systemTextId": 20275009,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 492,
+          "centerToStage": true,
+          "align": 1,
+          "width": 600,
+          "linkToScene": 13,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": 0,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 92537785,
+          "systemTextId": 58607777,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 563,
+          "centerToStage": true,
+          "align": 1,
+          "width": 600,
+          "linkToScene": 12,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": 0,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "loadingAndSavingGames": {
+      "loadingAndSavingGamesUpload": null,
+      "loadingAndSavingGames": "systemImageLoadingAndSavingGames-76155795.png",
+      "loadingAndSavingGamesPlaceholderUpload": null,
+      "loadingAndSavingGamesPlaceholder": "systemImageLoadingAndSavingGamesPlaceholder-47828758.png",
+      "loadingAndSavingGamesPlaceholderAnchorPointX": 0.5,
+      "loadingAndSavingGamesPlaceholderAnchorPointY": 0.5,
+      "screenshotWidth": 160,
+      "screenshotHeight": 90,
+      "screenshotFoleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+      "screenshotText": {
+        "textColor": "#ffffff",
+        "stroke": {
+          "show": false,
+          "color": "#000000",
+          "thickness": 4
+        },
+        "shadow": {
+          "show": true,
+          "x": 3,
+          "y": 3,
+          "color": "rgba(0,0,0,0.8)",
+          "blur": 2
+        },
+        "languages": {
+          "en": {
+            "fontId": 90667322,
+            "fontSize": 17,
+            "lineSpacing": -6
+          }
+        }
+      },
+      "upArrowUpload": null,
+      "upArrow": "systemImageUpArrow-1608567828882.png",
+      "upArrowXPosition": 900,
+      "upArrowYPosition": 110,
+      "downArrowUpload": null,
+      "downArrow": "systemImageDownArrow-1608567977881.png",
+      "downArrowXPosition": 900,
+      "downArrowYPosition": 200,
+      "scrollAmount": 3,
+      "maxSlots": 15,
+      "placeholders": [
+        {
+          "id": 1608550337961,
+          "x": 365,
+          "y": 182
+        },
+        {
+          "id": 1608565645353,
+          "x": 640,
+          "y": 182
+        },
+        {
+          "id": 1608565660263,
+          "x": 914,
+          "y": 182
+        },
+        {
+          "id": 1608565703542,
+          "x": 365,
+          "y": 353
+        },
+        {
+          "id": 1608565723079,
+          "x": 640,
+          "y": 353
+        },
+        {
+          "id": 1608565800501,
+          "x": 914,
+          "y": 353
+        },
+        {
+          "id": 53143653,
+          "x": 365,
+          "y": 523
+        },
+        {
+          "id": 91357066,
+          "x": 640,
+          "y": 523
+        },
+        {
+          "id": 32169190,
+          "x": 914,
+          "y": 523
+        }
+      ]
+    },
+    "loadingSceneFromStartup": {
+      "textBlocks": [
+        {
+          "id": 1609841378780,
+          "systemTextId": 93798264,
+          "textColor": "#2d2d2d",
+          "x": 0,
+          "y": 82,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 2,
+            "y": 2,
+            "color": "rgba(0,0,0,0.9)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "savingScene": {
+      "saveToSlotText": {
+        "textColor": "#ae1818",
+        "width": 120,
+        "stroke": {
+          "show": false,
+          "color": "#000000",
+          "thickness": 4
+        },
+        "shadow": {
+          "show": false,
+          "x": 2,
+          "y": 2,
+          "color": "rgba(0,0,0,0.8)",
+          "blur": 2
+        },
+        "languages": {
+          "en": {
+            "fontId": 90667322,
+            "fontSize": 17,
+            "lineSpacing": -6
+          }
+        }
+      },
+      "confirmationModal": {
+        "uiConfirmationModalUpload": null,
+        "uiConfirmationModal": "systemImageUiConfirmationModal-57859378.png",
+        "uiConfirmationModalX": 242,
+        "uiConfirmationModalY": 77,
+        "titleText": {
+          "textColor": "#ffffff",
+          "y": 225,
+          "width": 500,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 24,
+              "lineSpacing": -2
+            }
+          }
+        },
+        "yesText": {
+          "textColor": "#fffb04",
+          "x": 393,
+          "y": 340,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": -2
+            }
+          }
+        },
+        "noText": {
+          "textColor": "#FFFFFF",
+          "x": 794,
+          "y": 340,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": -2
+            }
+          }
+        }
+      },
+      "textBlocks": [
+        {
+          "id": 1609844102640,
+          "systemTextId": 93816024,
+          "textColor": "#2d2d2d",
+          "x": 0,
+          "y": 82,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 2,
+            "y": 2,
+            "color": "rgba(0,0,0,0.9)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "loadingSceneFromWithinGame": {
+      "textBlocks": [
+        {
+          "id": 1609845620732,
+          "systemTextId": 93798264,
+          "textColor": "#2d2d2d",
+          "x": 0,
+          "y": 82,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 2,
+            "y": 2,
+            "color": "rgba(0,0,0,0.9)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "optionsFromWithinGame": {
+      "optionsFromWithinGameUpload": null,
+      "optionsFromWithinGame": "systemImageOptionsFromWithinGame-10404945.png",
+      "textBlocks": [
+        {
+          "id": 1610820284467,
+          "systemTextId": 58607777,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 450,
+          "centerToStage": true,
+          "align": 1,
+          "width": 500,
+          "linkToScene": 8,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": -1,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 649770681,
+          "systemTextId": 20275009,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 350,
+          "centerToStage": true,
+          "align": 1,
+          "width": 500,
+          "linkToScene": 9,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": -1,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 313396836,
+          "systemTextId": 93798264,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 250,
+          "centerToStage": true,
+          "align": 1,
+          "width": 500,
+          "linkToScene": 4,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": -1,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 539260118,
+          "systemTextId": 60387850,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 550,
+          "centerToStage": true,
+          "align": 1,
+          "width": 500,
+          "linkToScene": 11,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": -1,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 685754984,
+          "systemTextId": 93816024,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 150,
+          "centerToStage": true,
+          "align": 1,
+          "width": 500,
+          "linkToScene": 6,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": -1,
+          "stroke": {
+            "show": true,
+            "color": "#468cbe",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": false,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "endingScreen": {
+      "enable": true,
+      "endScreenBackgroundUpload": null,
+      "endScreenBackground": "systemImageEndScreenBackground-8732472.png",
+      "textBlocks": [
+        {
+          "id": 1609934201317,
+          "systemTextId": 33177472,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 437,
+          "centerToStage": true,
+          "align": 1,
+          "width": 600,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 40,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1609934806588,
+          "systemTextId": 33215152,
+          "textColor": "#ffce08",
+          "x": 0,
+          "y": 517,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": 5,
+          "foleySoundIdOnTap": "wavesurfer_eo3ko3qc0p8",
+          "impactType": 0,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 32,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ],
+      "musicId": 22371042,
+      "musicLoop": true
+    },
+    "credits": {
+      "creditsBackgroundUpload": null,
+      "creditsBackground": "systemImageCreditsBackground-83939733.png",
+      "companyLogoUpload": null,
+      "companyLogo": "systemImageCompanyLogo-32383247.png",
+      "companyLogoYPosition": 200,
+      "creditsStyling": {
+        "textColor": "#ffffff",
+        "yPosition": 425,
+        "width": 900,
+        "stroke": {
+          "show": false,
+          "color": "#000000",
+          "thickness": 4
+        },
+        "shadow": {
+          "show": true,
+          "x": 3,
+          "y": 3,
+          "color": "rgba(0,0,0,0.8)",
+          "blur": 2
+        },
+        "languages": {
+          "en": {
+            "fontId": 90667322,
+            "fontSize": 30,
+            "lineSpacing": -4
+          }
+        }
+      },
+      "textBlocks": []
+    },
+    "loadingScreen": {
+      "loadingBackgroundUpload": null,
+      "loadingBackground": "systemImageLoadingBackground-41490811.png",
+      "uiPreloadContainerUpload": null,
+      "uiPreloadContainer": "systemImageUiPreloadContainer.png",
+      "uiPreloadContainerX": 305,
+      "uiPreloadContainerY": 637,
+      "uiPreloadFillUpload": null,
+      "uiPreloadFill": "systemImageUiPreloadFill.png",
+      "uiPreloadFillX": 308,
+      "uiPreloadFillY": 640
+    },
+    "volumes": {
+      "volumeBackgroundUpload": null,
+      "volumeBackground": "systemImageVolumeBackground-81183640.png",
+      "uiVolumeSlideBarUpload": null,
+      "uiVolumeSlideBar": "systemImageUiVolumeSlideBar-95890619.png",
+      "uiVolumeSlideBarMusic": {
+        "x": 448,
+        "y": 250
+      },
+      "uiVolumeSlideBarSfx": {
+        "x": 448,
+        "y": 365
+      },
+      "uiVolumeSlideBarVoices": {
+        "x": 448,
+        "y": 480
+      },
+      "uiVolumeSlideSpotUpload": null,
+      "uiVolumeSlideSpot": "systemImageUiVolumeSlideSpot-22747625.png",
+      "textBlocks": [
+        {
+          "id": 1610019823185,
+          "systemTextId": 20275009,
+          "textColor": "#ece927",
+          "x": 0,
+          "y": 120,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 40,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1610019913210,
+          "systemTextId": 19753772,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 205,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 33,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1610019951907,
+          "systemTextId": 19772066,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 320,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 33,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1610020049371,
+          "systemTextId": 19798345,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 435,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 33,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    },
+    "textAndSpeech": {
+      "textAndSpeechBackgroundUpload": null,
+      "textAndSpeechBackground": "systemImageTextAndSpeechBackground-99664459.png",
+      "uiTextAndSpeechSlideBarUpload": null,
+      "uiTextAndSpeechSlideBar": "systemImageUiTextAndSpeechSlideBar-72403763.png",
+      "uiTextAndSpeechSlideBarInterfaceTextSize": {
+        "x": 468,
+        "y": 375
+      },
+      "uiTextAndSpeechSlideBarSpeechTextSpeed": {
+        "x": 468,
+        "y": 475
+      },
+      "uiTextSizeSlideSpotUpload": null,
+      "uiTextSizeSlideSpot": "systemImageUiTextSizeSlideSpot-1611160141368.png",
+      "languageNameStyling": {
+        "textColor": "#00b22d",
+        "yPosition": 166,
+        "width": 900,
+        "stroke": {
+          "show": true,
+          "color": "#00641a",
+          "thickness": 4
+        },
+        "shadow": {
+          "show": false,
+          "x": 3,
+          "y": 3,
+          "color": "rgba(0,0,0,0.8)",
+          "blur": 2
+        },
+        "sound": "wavesurfer_96gprltjp1g",
+        "languages": {
+          "en": {
+            "fontId": 90667322,
+            "fontSize": 22,
+            "lineSpacing": 0
+          }
+        }
+      },
+      "speechModeNameStyling": {
+        "textColor": "#00b22d",
+        "yPosition": 265,
+        "width": 900,
+        "stroke": {
+          "show": true,
+          "color": "#00641A",
+          "thickness": 4
+        },
+        "shadow": {
+          "show": false,
+          "x": 3,
+          "y": 3,
+          "color": "rgba(0,0,0,0.8)",
+          "blur": 2
+        },
+        "sound": "wavesurfer_96gprltjp1g",
+        "languages": {
+          "en": {
+            "fontId": 90667322,
+            "fontSize": 22,
+            "lineSpacing": 0
+          }
+        }
+      },
+      "textBlocks": [
+        {
+          "id": 1610019823185,
+          "systemTextId": 58607777,
+          "textColor": "#ece927",
+          "x": 0,
+          "y": 88,
+          "centerToStage": true,
+          "align": 1,
+          "width": 500,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 30,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1610019913210,
+          "systemTextId": 59409481,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 340,
+          "centerToStage": true,
+          "align": 1,
+          "width": 444,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 22,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1610019951907,
+          "systemTextId": 59437478,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 438,
+          "centerToStage": true,
+          "align": 1,
+          "width": 444,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 22,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1611159603161,
+          "systemTextId": 59574617,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 140,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 22,
+              "lineSpacing": 0
+            }
+          }
+        },
+        {
+          "id": 1611162394167,
+          "systemTextId": 1851330,
+          "textColor": "#ffffff",
+          "x": 0,
+          "y": 244,
+          "centerToStage": true,
+          "align": 1,
+          "width": 400,
+          "linkToScene": -1,
+          "foleySoundIdOnTap": null,
+          "impactType": -1,
+          "stroke": {
+            "show": false,
+            "color": "#000000",
+            "thickness": 4
+          },
+          "shadow": {
+            "show": true,
+            "x": 3,
+            "y": 3,
+            "color": "rgba(0,0,0,0.8)",
+            "blur": 2
+          },
+          "languages": {
+            "en": {
+              "fontId": 90667322,
+              "fontSize": 22,
+              "lineSpacing": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  "globalSpeeches": {
+    "languages": {
+      "en": {
+        "id": "globalSpeechesAudio-en-72119770",
+        "soundUpload": null
+      }
+    }
+  },
+  "maps": [],
+  "playerSettings": {
+    "currentRoomId": 13530892,
+    "currentPlayableCharacterId": 89481451,
+    "playableCharacters": [
+      {
+        "id": 89481451,
+        "refName": "Girl",
+        "languages": {
+          "en": {
+            "name": "Girl"
+          }
+        },
+        "avatarIconState": 0,
+        "hidden": false,
+        "mainAvatarImageUpload": null,
+        "mainAvatarPath": "playerIconImage89481451MainAvatar-21351457.png",
+        "mapAvatarImageUpload": null,
+        "mapAvatarPath": "playerIconImage89481451MapAvatar-68109493.png",
+        "defaultFootstepsAudio": "wavesurfer_eqemfs36jqo",
+        "numberOfPixelsToTravelAtPerSecond": 280,
+        "conversationFillColor": "#FF0000",
+        "conversationFillColorAdditional": "#FF0000",
+        "speechTextYOffset": 30,
+        "pixelPerfectClick": true,
+        "pixelPerfectOver": true,
+        "ignore": false,
+        "position": {
+          "x": 888,
+          "y": 664
+        },
+        "currentRoomId": 13530892,
+        "currentGroupAnimationId": 89028421,
+        "defaultGlobalSpeeches": {
+          "pickUpNPC": [
+            {
+              "id": 2621152,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "I can't pick up a person"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "openNPC": [
+            {
+              "id": 7266378,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "I don't think you've thought this through properly"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "closeNPC": [
+            {
+              "id": 53225930,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "I don't think you've thought this through properly"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "pushNPC": [
+            {
+              "id": 75565056,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "I'm not gonna cause any fights"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "pullNPC": [
+            {
+              "id": 94937953,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "Hmm no thanks I'm taken"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "giveUseToNPC": [
+            {
+              "id": 4958859,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "Hmm nope"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "inventoryItemOnSceneIncorrectAction": [
+            {
+              "id": 43139846,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "That doesn't seem to work"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "targetZonesIncorrectAction": [
+            {
+              "id": 40743805,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "That doesn't seem to work"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "wrongInventoryItemCombo": [
+            {
+              "id": 43849295,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "No those two items don't seem to work together"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "talkToOtherPlayableCharacter": [
+            {
+              "id": 25946705,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "Hi there"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ],
+          "lookAtOtherPlayableCharacter": [
+            {
+              "id": 94010159,
+              "type": "globalSpeech",
+              "param1": {
+                "languages": {
+                  "en": {
+                    "text": "Hi there"
+                  }
+                }
+              },
+              "param2": {
+                "languages": {
+                  "en": null
+                }
+              },
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": 89481451
+            }
+          ]
+        },
+        "groupAnimations": [
+          {
+            "id": 89028421,
+            "refName": "Default",
+            "animations": [
+              {
+                "id": 1,
+                "refName": "Reference Image",
+                "canEditRefName": false,
+                "numberOfFrames": 1,
+                "frameRate": 0,
+                "loop": false,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": -1,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation14546195"
+              },
+              {
+                "id": 2,
+                "refName": "Collect Crouch Left",
+                "canEditRefName": false,
+                "numberOfFrames": 10,
+                "frameRate": 15,
+                "loop": false,
+                "pickUpItemDelay": 500,
+                "required": true,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation34032459"
+              },
+              {
+                "id": 3,
+                "refName": "Collect Crouch Right",
+                "canEditRefName": false,
+                "numberOfFrames": 10,
+                "frameRate": 15,
+                "loop": false,
+                "pickUpItemDelay": 500,
+                "required": true,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation16573624"
+              },
+              {
+                "id": 4,
+                "refName": "Collect Reach Left",
+                "canEditRefName": false,
+                "numberOfFrames": 12,
+                "frameRate": 15,
+                "loop": false,
+                "pickUpItemDelay": 500,
+                "required": true,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation80528947"
+              },
+              {
+                "id": 5,
+                "refName": "Collect Reach Right",
+                "canEditRefName": false,
+                "numberOfFrames": 12,
+                "frameRate": 15,
+                "loop": false,
+                "pickUpItemDelay": 500,
+                "required": true,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation43848259"
+              },
+              {
+                "id": 6,
+                "refName": "Collect Stand Left",
+                "canEditRefName": false,
+                "numberOfFrames": 12,
+                "frameRate": 15,
+                "loop": false,
+                "pickUpItemDelay": 500,
+                "required": true,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation16593118"
+              },
+              {
+                "id": 7,
+                "refName": "Collect Stand Right",
+                "canEditRefName": false,
+                "numberOfFrames": 12,
+                "frameRate": 15,
+                "loop": false,
+                "pickUpItemDelay": 500,
+                "required": true,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation2477448"
+              },
+              {
+                "id": 8,
+                "refName": "Focus Back",
+                "canEditRefName": false,
+                "numberOfFrames": 1,
+                "frameRate": 1,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 1,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation21792849"
+              },
+              {
+                "id": 9,
+                "refName": "Focus Front",
+                "canEditRefName": false,
+                "numberOfFrames": 1,
+                "frameRate": 1,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 1,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation92182373"
+              },
+              {
+                "id": 10,
+                "refName": "Focus Left",
+                "canEditRefName": false,
+                "numberOfFrames": 1,
+                "frameRate": 1,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 1,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation66506794"
+              },
+              {
+                "id": 11,
+                "refName": "Focus Right",
+                "canEditRefName": false,
+                "numberOfFrames": 1,
+                "frameRate": 1,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 1,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation13259126"
+              },
+              {
+                "id": 12,
+                "refName": "Idle Back",
+                "canEditRefName": false,
+                "numberOfFrames": 28,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 2,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation75138930"
+              },
+              {
+                "id": 13,
+                "refName": "Idle Front",
+                "canEditRefName": false,
+                "numberOfFrames": 28,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 2,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation3895735"
+              },
+              {
+                "id": 14,
+                "refName": "Idle Left",
+                "canEditRefName": false,
+                "numberOfFrames": 28,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 2,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation51963583"
+              },
+              {
+                "id": 15,
+                "refName": "Idle Right",
+                "canEditRefName": false,
+                "numberOfFrames": 28,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 2,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation5652756"
+              },
+              {
+                "id": 16,
+                "refName": "Talk Back",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 3,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation38906359"
+              },
+              {
+                "id": 17,
+                "refName": "Talk Front",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 3,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation66929266"
+              },
+              {
+                "id": 18,
+                "refName": "Talk Left",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 3,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation90188946"
+              },
+              {
+                "id": 19,
+                "refName": "Talk Right",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 3,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation82591886"
+              },
+              {
+                "id": 20,
+                "refName": "Walk Back",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 4,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation11137392"
+              },
+              {
+                "id": 21,
+                "refName": "Walk Front",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 4,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation70032435"
+              },
+              {
+                "id": 22,
+                "refName": "Walk Left",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 4,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation75207560"
+              },
+              {
+                "id": 23,
+                "refName": "Walk Right",
+                "canEditRefName": false,
+                "numberOfFrames": 6,
+                "frameRate": 15,
+                "loop": true,
+                "pickUpItemDelay": null,
+                "required": true,
+                "type": 4,
+                "filesUploaded": true,
+                "filePath": "playableCharacterAnimation94260662"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "id": 13530892,
+      "mapReferences": [],
+      "width": 1280,
+      "height": 720,
+      "routeFinderGridIncrement": 14,
+      "animationOverrideAreas": [],
+      "scaleAreas": [],
+      "refName": "Outside Gate",
+      "background": {
+        "backgroundImageUpload": null,
+        "backgroundImagePath": "backgroundImage72910194.png"
+      },
+      "includeForeground": false,
+      "foreground": [],
+      "walkableArea": [
+        "10,635,279,637,344,601,944,603,1011,632,1275,633,1275,717,5,714"
+      ],
+      "music": {
+        "musicId": 90750309,
+        "musicLoop": true
+      },
+      "narration": {
+        "languages": {
+          "en": {
+            "narrationId": null,
+            "narrationUpload": null
+          }
+        }
+      },
+      "roomEntranceProtocol": [
+        {
+          "id": 7355448,
+          "refName": "Close the gate behind you",
+          "appliesToAllPlayableCharacters": true,
+          "appliesToPlayableCharacterIds": [],
+          "available": true,
+          "runOnStartup": false,
+          "runAfterVisitingOptions": false,
+          "runOnEnteringViaTargetZones": true,
+          "targetZoneIds": [
+            21219428
+          ],
+          "runAfterCutScenes": false,
+          "cutSceneIds": [],
+          "protocol": [
+            {
+              "id": 91889813,
+              "type": "playFoleySound",
+              "param1": "wavesurfer_6n32irjvceg",
+              "param2": null,
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": null
+            },
+            {
+              "id": 13178118,
+              "type": "animateTargetZone",
+              "param1": 21219428,
+              "param2": 33652058,
+              "param3": 1,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": null
+            }
+          ]
+        }
+      ],
+      "intervalEvents": [
+        {
+          "id": 74155370,
+          "refName": "Cat Yawns",
+          "run": false,
+          "runType": 0,
+          "lastRunProtocolBlockIndex": null,
+          "protocols": [
+            [
+              {
+                "id": 6193578,
+                "type": "disableWalkBox",
+                "param1": 13530892,
+                "param2": 53568492,
+                "param3": null,
+                "param4": null,
+                "param5": null,
+                "param6": null,
+                "param7": null,
+                "param8": null,
+                "param9": null,
+                "intervalEventId": 74155370,
+                "characterId": null
+              },
+              {
+                "id": 34762972,
+                "type": "animateNpcCharacter",
+                "param1": 50320601,
+                "param2": 1,
+                "param3": null,
+                "param4": null,
+                "param5": null,
+                "param6": null,
+                "param7": null,
+                "param8": null,
+                "param9": null,
+                "intervalEventId": 74155370,
+                "characterId": 65163470
+              },
+              {
+                "id": 23539407,
+                "type": "animateNpcCharacter",
+                "param1": 7,
+                "param2": 0,
+                "param3": null,
+                "param4": null,
+                "param5": null,
+                "param6": null,
+                "param7": null,
+                "param8": null,
+                "param9": null,
+                "intervalEventId": 74155370,
+                "characterId": 65163470
+              },
+              {
+                "id": 9996062,
+                "type": "enableWalkBox",
+                "param1": 13530892,
+                "param2": 53568492,
+                "param3": null,
+                "param4": null,
+                "param5": null,
+                "param6": null,
+                "param7": null,
+                "param8": null,
+                "param9": null,
+                "intervalEventId": 74155370,
+                "characterId": null
+              },
+              {
+                "id": 32924398,
+                "type": "disableIntervalEvent",
+                "param1": 13530892,
+                "param2": 74155370,
+                "param3": null,
+                "param4": null,
+                "param5": null,
+                "param6": null,
+                "param7": null,
+                "param8": null,
+                "param9": null,
+                "intervalEventId": 74155370,
+                "characterId": null
+              }
+            ]
+          ]
+        }
+      ],
+      "conversations": [],
+      "targetZones": [
+        {
+          "id": 21219428,
+          "refName": "Gate",
+          "type": 0,
+          "graphicalOptions": {
+            "pixelPerfectClick": false,
+            "pixelPerfectOver": false,
+            "position": {
+              "x": 640,
+              "y": 604
+            },
+            "anchor": {
+              "x": 0.5,
+              "y": 1
+            },
+            "defaultAnimationId": 2,
+            "animations": [
+              {
+                "id": 1,
+                "refName": "ReferenceImage",
+                "numberOfFrames": 1,
+                "frameRate": 0,
+                "loop": false,
+                "required": true,
+                "type": -1,
+                "filesUploaded": true,
+                "filePath": "targetZoneAnimation4080203"
+              },
+              {
+                "id": 2,
+                "refName": "Closed",
+                "numberOfFrames": 1,
+                "frameRate": 10,
+                "loop": false,
+                "required": false,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "targetZoneAnimation85646962"
+              },
+              {
+                "id": 98303534,
+                "refName": "Open",
+                "numberOfFrames": 1,
+                "frameRate": 15,
+                "loop": false,
+                "required": false,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "targetZoneAnimation32515138"
+              },
+              {
+                "id": 33652058,
+                "refName": "Closing",
+                "numberOfFrames": 2,
+                "frameRate": 3,
+                "loop": false,
+                "required": false,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "targetZoneAnimation93019399"
+              }
+            ]
+          },
+          "hotspotOptions": null,
+          "ignore": false,
+          "playerFocusAnimationId": 8,
+          "playerInteractPosition": {
+            "x": 540,
+            "y": 620
+          },
+          "stateId": 58047107,
+          "states": [
+            {
+              "id": 58047107,
+              "languages": {
+                "en": {
+                  "name": "Locked Gate"
+                }
+              },
+              "lookAtProtocol": [
+                {
+                  "id": 33059829,
+                  "type": "roomSpeech",
+                  "param1": {
+                    "languages": {
+                      "en": {
+                        "text": "It's a locked gate"
+                      }
+                    }
+                  },
+                  "param2": {
+                    "languages": {
+                      "en": null
+                    }
+                  },
+                  "param3": 0,
+                  "param4": 16,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": -1
+                }
+              ]
+            },
+            {
+              "id": 73464280,
+              "languages": {
+                "en": {
+                  "name": "Unlocked Gate"
+                }
+              },
+              "lookAtProtocol": [
+                {
+                  "id": 2979424,
+                  "type": "roomSpeech",
+                  "param1": {
+                    "languages": {
+                      "en": {
+                        "text": "It's an unlocked gate"
+                      }
+                    }
+                  },
+                  "param2": {
+                    "languages": {
+                      "en": null
+                    }
+                  },
+                  "param3": 0,
+                  "param4": 16,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": -1
+                }
+              ]
+            }
+          ],
+          "combinations": [
+            {
+              "id": 60583683,
+              "refName": "Use key on gate to unlock",
+              "appliesToAllPlayableCharacters": true,
+              "appliesToPlayableCharacterIds": [],
+              "actionRequired": [
+                "use"
+              ],
+              "itemRequired": 65878568,
+              "protocolToRunOnMatch": [
+                {
+                  "id": 34855052,
+                  "type": "playFoleySound",
+                  "param1": "wavesurfer_dvad56d4ecg",
+                  "param2": null,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 3216116,
+                  "type": "animatePlayableCharacter",
+                  "param1": null,
+                  "param2": 7,
+                  "param3": 1,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": -1
+                },
+                {
+                  "id": 30351173,
+                  "type": "removeFromInventory",
+                  "param1": 65878568,
+                  "param2": null,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": -1
+                },
+                {
+                  "id": 8038938,
+                  "type": "changeTargetZoneStateLevel",
+                  "param1": 13530892,
+                  "param2": 21219428,
+                  "param3": 73464280,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 83727329,
+                  "type": "enableTargetZoneCombinationAvailability",
+                  "param1": 13530892,
+                  "param2": 21219428,
+                  "param3": 24103352,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 53832839,
+                  "type": "disableTargetZoneCombinationAvailability",
+                  "param1": 13530892,
+                  "param2": 21219428,
+                  "param3": 60583683,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 15539943,
+                  "type": "disableTargetZoneCombinationAvailability",
+                  "param1": 13530892,
+                  "param2": 21219428,
+                  "param3": 83924136,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                }
+              ],
+              "available": true
+            },
+            {
+              "id": 24103352,
+              "refName": "Go to next room",
+              "appliesToAllPlayableCharacters": true,
+              "appliesToPlayableCharacterIds": [],
+              "actionRequired": [
+                "walkTo",
+                "use"
+              ],
+              "itemRequired": null,
+              "protocolToRunOnMatch": [
+                {
+                  "id": 58306617,
+                  "type": "playFoleySound",
+                  "param1": "wavesurfer_2r0d7q69jq",
+                  "param2": null,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 58124342,
+                  "type": "animateTargetZone",
+                  "param1": 21219428,
+                  "param2": 98303534,
+                  "param3": 1,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 34714454,
+                  "type": "delay",
+                  "param1": 2000,
+                  "param2": null,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                },
+                {
+                  "id": 16081286,
+                  "type": "goThroughGateway",
+                  "param1": 25389338,
+                  "param2": 21066669,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                }
+              ],
+              "available": false
+            },
+            {
+              "id": 83924136,
+              "refName": "Say the gate is locked",
+              "appliesToAllPlayableCharacters": true,
+              "appliesToPlayableCharacterIds": [],
+              "actionRequired": [
+                "walkTo",
+                "use"
+              ],
+              "itemRequired": null,
+              "protocolToRunOnMatch": [
+                {
+                  "id": 77069122,
+                  "type": "roomSpeech",
+                  "param1": {
+                    "languages": {
+                      "en": {
+                        "text": "It's locked"
+                      }
+                    }
+                  },
+                  "param2": {
+                    "languages": {
+                      "en": null
+                    }
+                  },
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": -1
+                }
+              ],
+              "available": true
+            }
+          ]
+        }
+      ],
+      "walkBoxes": [
+        {
+          "id": 53568492,
+          "refName": "Trigger interval event so cat can yawn",
+          "appliesToAllPlayableCharacters": true,
+          "appliesToPlayableCharacterIds": [],
+          "area": "1020,634,1278,632,1275,715,1164,715",
+          "walkInProtocol": [
+            {
+              "id": 12151686,
+              "type": "enableIntervalEvent",
+              "param1": 13530892,
+              "param2": 74155370,
+              "param3": null,
+              "param4": null,
+              "param5": null,
+              "param6": null,
+              "param7": null,
+              "param8": null,
+              "param9": null,
+              "intervalEventId": null,
+              "characterId": null
+            }
+          ],
+          "alreadyOnProtocol": [],
+          "walkInProtocolAvailable": true,
+          "alreadyOnProtocolAvailable": true,
+          "walkBoxValid": true
+        }
+      ],
+      "npc": [
+        {
+          "id": 65163470,
+          "hidden": false,
+          "pixelPerfectClick": false,
+          "pixelPerfectOver": false,
+          "ignore": false,
+          "refName": "Cat",
+          "relationshipTermId": 4973014,
+          "descriptionId": 63742672,
+          "position": {
+            "x": 1139,
+            "y": 415
+          },
+          "playerInteractPosition": {
+            "x": 961,
+            "y": 641
+          },
+          "anchor": {
+            "x": 0.5,
+            "y": 1
+          },
+          "playerFocusAnimId": 11,
+          "playerTalkAnimId": 19,
+          "conversationFillColor": "#fff000",
+          "conversationFillColorAdditional": "#c7d41c",
+          "speechTextYOffset": 20,
+          "numberOfPixelsToTravelAtPerSecond": 100,
+          "defaultFootstepsAudio": null,
+          "defaultAnimationId": 7,
+          "description": [
+            {
+              "id": 63742672,
+              "refName": "Cat",
+              "protocol": [
+                {
+                  "id": 53780820,
+                  "type": "roomSpeech",
+                  "param1": {
+                    "languages": {
+                      "en": {
+                        "text": "It's a friendly cat"
+                      }
+                    }
+                  },
+                  "param2": {
+                    "languages": {
+                      "en": null
+                    }
+                  },
+                  "param3": 0,
+                  "param4": 19,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": -1
+                }
+              ]
+            }
+          ],
+          "animations": [
+            {
+              "id": 1,
+              "refName": "Reference Image",
+              "numberOfFrames": 1,
+              "frameRate": 0,
+              "type": -1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation37976913"
+            },
+            {
+              "id": 2,
+              "refName": "Focus Back",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation58921448"
+            },
+            {
+              "id": 3,
+              "refName": "Focus Front",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation93158198"
+            },
+            {
+              "id": 4,
+              "refName": "Focus Left",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation56430398"
+            },
+            {
+              "id": 5,
+              "refName": "Focus Right",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation63301728"
+            },
+            {
+              "id": 6,
+              "refName": "Idle Back",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation54194757"
+            },
+            {
+              "id": 7,
+              "refName": "Idle Front",
+              "numberOfFrames": 48,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation24355729"
+            },
+            {
+              "id": 8,
+              "refName": "Idle Left",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation74555989"
+            },
+            {
+              "id": 9,
+              "refName": "Idle Right",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation46193914"
+            },
+            {
+              "id": 10,
+              "refName": "Talk Back",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation89098646"
+            },
+            {
+              "id": 11,
+              "refName": "Talk Front",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation21501406"
+            },
+            {
+              "id": 12,
+              "refName": "Talk Left",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation63571494"
+            },
+            {
+              "id": 13,
+              "refName": "Talk Right",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation27639340"
+            },
+            {
+              "id": 14,
+              "refName": "Walk Back",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation6423926"
+            },
+            {
+              "id": 15,
+              "refName": "Walk Front",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation2120916"
+            },
+            {
+              "id": 16,
+              "refName": "Walk Left",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation10793782"
+            },
+            {
+              "id": 17,
+              "refName": "Walk Right",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation50765438"
+            },
+            {
+              "id": 50320601,
+              "refName": "Yawning",
+              "numberOfFrames": 24,
+              "frameRate": 15,
+              "type": 5,
+              "loop": false,
+              "required": false,
+              "filesUploaded": true,
+              "filePath": "npcAnimation85639374"
+            }
+          ],
+          "itemAndActionCombinations": [],
+          "relationTerms": [
+            {
+              "id": 4973014,
+              "languages": {
+                "en": {
+                  "name": "Cat"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25389338,
+      "mapReferences": [],
+      "width": 1280,
+      "height": 720,
+      "routeFinderGridIncrement": 14,
+      "animationOverrideAreas": [],
+      "scaleAreas": [],
+      "refName": "Courtyard",
+      "background": {
+        "backgroundImageUpload": null,
+        "backgroundImagePath": "backgroundImage11737702.png"
+      },
+      "includeForeground": false,
+      "foreground": [],
+      "walkableArea": [
+        "7,558,1270,561,1274,714,3,716"
+      ],
+      "music": {
+        "musicId": 90750309,
+        "musicLoop": true
+      },
+      "narration": {
+        "languages": {
+          "en": {
+            "narrationId": null,
+            "narrationUpload": null
+          }
+        }
+      },
+      "roomEntranceProtocol": [],
+      "intervalEvents": [],
+      "conversations": [],
+      "targetZones": [
+        {
+          "id": 21066669,
+          "refName": "Gate",
+          "type": 0,
+          "graphicalOptions": {
+            "pixelPerfectClick": false,
+            "pixelPerfectOver": false,
+            "position": {
+              "x": 1146,
+              "y": 543
+            },
+            "anchor": {
+              "x": 0.5,
+              "y": 1
+            },
+            "defaultAnimationId": 2,
+            "animations": [
+              {
+                "id": 1,
+                "refName": "ReferenceImage",
+                "numberOfFrames": 1,
+                "frameRate": 0,
+                "loop": false,
+                "required": true,
+                "type": -1,
+                "filesUploaded": true,
+                "filePath": "targetZoneAnimation31308275"
+              },
+              {
+                "id": 2,
+                "refName": "Default",
+                "numberOfFrames": 1,
+                "frameRate": 10,
+                "loop": false,
+                "required": false,
+                "type": 0,
+                "filesUploaded": true,
+                "filePath": "targetZoneAnimation53102158"
+              }
+            ]
+          },
+          "hotspotOptions": null,
+          "ignore": false,
+          "playerFocusAnimationId": 11,
+          "playerInteractPosition": {
+            "x": 1158,
+            "y": 611
+          },
+          "stateId": 43533835,
+          "states": [
+            {
+              "id": 43533835,
+              "languages": {
+                "en": {
+                  "name": "Gate"
+                }
+              },
+              "lookAtProtocol": []
+            }
+          ],
+          "combinations": [
+            {
+              "id": 26181575,
+              "refName": "Go back to outside property",
+              "appliesToAllPlayableCharacters": true,
+              "appliesToPlayableCharacterIds": [],
+              "actionRequired": [
+                "walkTo",
+                "use"
+              ],
+              "itemRequired": null,
+              "protocolToRunOnMatch": [
+                {
+                  "id": 85689833,
+                  "type": "goThroughGateway",
+                  "param1": 13530892,
+                  "param2": 21219428,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                }
+              ],
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 44265212,
+          "refName": "Path to house",
+          "type": 1,
+          "graphicalOptions": null,
+          "hotspotOptions": {
+            "area": "5,319,179,319,176,711,3,714"
+          },
+          "ignore": false,
+          "playerFocusAnimationId": 10,
+          "playerInteractPosition": {
+            "x": 61,
+            "y": 627
+          },
+          "stateId": 19469036,
+          "states": [
+            {
+              "id": 19469036,
+              "languages": {
+                "en": {
+                  "name": "Path to House"
+                }
+              },
+              "lookAtProtocol": []
+            }
+          ],
+          "combinations": [
+            {
+              "id": 41550901,
+              "refName": "End Game",
+              "appliesToAllPlayableCharacters": true,
+              "appliesToPlayableCharacterIds": [],
+              "actionRequired": [
+                "walkTo",
+                "use"
+              ],
+              "itemRequired": null,
+              "protocolToRunOnMatch": [
+                {
+                  "id": 38759973,
+                  "type": "showEndScreen",
+                  "param1": null,
+                  "param2": null,
+                  "param3": null,
+                  "param4": null,
+                  "param5": null,
+                  "param6": null,
+                  "param7": null,
+                  "param8": null,
+                  "param9": null,
+                  "intervalEventId": null,
+                  "characterId": null
+                }
+              ],
+              "available": true
+            }
+          ]
+        }
+      ],
+      "walkBoxes": [],
+      "npc": [
+        {
+          "id": 48595437,
+          "hidden": false,
+          "pixelPerfectClick": false,
+          "pixelPerfectOver": false,
+          "ignore": false,
+          "refName": "Cat",
+          "relationshipTermId": 4373409,
+          "descriptionId": 37868241,
+          "position": {
+            "x": 942,
+            "y": 284
+          },
+          "playerInteractPosition": {
+            "x": 842,
+            "y": 581
+          },
+          "anchor": {
+            "x": 0.5,
+            "y": 1
+          },
+          "playerFocusAnimId": 11,
+          "playerTalkAnimId": 19,
+          "conversationFillColor": "#ff0000",
+          "conversationFillColorAdditional": "#ff0000",
+          "speechTextYOffset": 20,
+          "numberOfPixelsToTravelAtPerSecond": 100,
+          "defaultFootstepsAudio": null,
+          "defaultAnimationId": 7,
+          "description": [
+            {
+              "id": 37868241,
+              "refName": "Cat",
+              "protocol": []
+            }
+          ],
+          "animations": [
+            {
+              "id": 1,
+              "refName": "Reference Image",
+              "numberOfFrames": 1,
+              "frameRate": 0,
+              "type": -1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation19193902"
+            },
+            {
+              "id": 2,
+              "refName": "Focus Back",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation95482237"
+            },
+            {
+              "id": 3,
+              "refName": "Focus Front",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation90556968"
+            },
+            {
+              "id": 4,
+              "refName": "Focus Left",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation64754089"
+            },
+            {
+              "id": 5,
+              "refName": "Focus Right",
+              "numberOfFrames": 1,
+              "frameRate": 1,
+              "type": 1,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation76754278"
+            },
+            {
+              "id": 6,
+              "refName": "Idle Back",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation23322766"
+            },
+            {
+              "id": 7,
+              "refName": "Idle Front",
+              "numberOfFrames": 48,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation96631849"
+            },
+            {
+              "id": 8,
+              "refName": "Idle Left",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation73173063"
+            },
+            {
+              "id": 9,
+              "refName": "Idle Right",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 2,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation10645787"
+            },
+            {
+              "id": 10,
+              "refName": "Talk Back",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation33030164"
+            },
+            {
+              "id": 11,
+              "refName": "Talk Front",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation6791096"
+            },
+            {
+              "id": 12,
+              "refName": "Talk Left",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation29809905"
+            },
+            {
+              "id": 13,
+              "refName": "Talk Right",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 3,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation62018845"
+            },
+            {
+              "id": 14,
+              "refName": "Walk Back",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation21149944"
+            },
+            {
+              "id": 15,
+              "refName": "Walk Front",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation64957345"
+            },
+            {
+              "id": 16,
+              "refName": "Walk Left",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation50683416"
+            },
+            {
+              "id": 17,
+              "refName": "Walk Right",
+              "numberOfFrames": 1,
+              "frameRate": 15,
+              "type": 4,
+              "loop": true,
+              "required": true,
+              "filesUploaded": true,
+              "filePath": "npcAnimation62274667"
+            }
+          ],
+          "itemAndActionCombinations": [],
+          "relationTerms": [
+            {
+              "id": 4373409,
+              "languages": {
+                "en": {
+                  "name": "Cat"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inventoryBox": [
+    {
+      "id": 65878568,
+      "refName": "Key",
+      "displayImageUpload": null,
+      "displayImagePath": "inventoryDisplayImage76561213.png",
+      "orderNumber": 0,
+      "bringToAttention": false,
+      "ownedByPlayableCharacterId": null,
+      "lookAtProtocolItemInInventory": [],
+      "includePickUpOnSceneFeatures": true,
+      "includeItemUpItselfFeatures": false,
+      "useItemByItselfDetails": null,
+      "pickUpOnSceneDetails": {
+        "sceneImageUpload": null,
+        "sceneImagePath": "inventorySceneImage27395730.png",
+        "width": 48,
+        "height": 48,
+        "collectionProtocol": [
+          {
+            "id": 38681973,
+            "refName": "Current Playable Character picks up item",
+            "appliesToAllPlayableCharacters": true,
+            "appliesToPlayableCharacterIds": [],
+            "available": true,
+            "actionRequired": [
+              "pickUp"
+            ],
+            "protocolBeforeCollectionAnim": [],
+            "type": 0,
+            "playerCollectionAnimId": 3,
+            "protocolAfterCollectionAnim": []
+          }
+        ],
+        "lookAtProtocolItemOnScene": [],
+        "position": {
+          "x": 343,
+          "y": 630
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "playerInteractPosition": {
+          "x": 290,
+          "y": 651
+        },
+        "hidden": false,
+        "pixelPerfectClick": false,
+        "pixelPerfectOver": false,
+        "ignore": false,
+        "placedInRoomId": 13530892
+      },
+      "languages": {
+        "en": {
+          "name": "Key"
+        }
+      }
+    }
+  ],
+  "permittedItemCombos": [],
+  "closeUpPuzzles": [],
+  "cutScenes": [],
+  "escort": [],
+  "credits": [
+    {
+      "id": 55737354,
+      "name": "Your Name",
+      "languages": {
+        "en": {
+          "role": "Producer"
+        }
+      }
+    },
+    {
+      "id": 67484774,
+      "name": "Gate Open and Close Sounds (Creative Commons)",
+      "languages": {
+        "en": {
+          "role": "https://freesound.org/people/Sheyvan/sounds/476122/"
+        }
+      }
+    },
+    {
+      "id": 521028,
+      "name": "Padlock unlock",
+      "languages": {
+        "en": {
+          "role": "https://freesound.org/people/NachtmahrTV/sounds/553258/"
+        }
+      }
+    }
+  ],
+  "localisation": {
+    "languages": [
+      {
+        "id": "en",
+        "name": "English - English",
+        "allowNarrationAudio": false
+      }
+    ]
+  },
+  "music": [
+    {
+      "id": 98320417,
+      "musicUpload": null,
+      "musicPath": "backgroundMusicAudio-81053504",
+      "refName": "Opening Options Music"
+    },
+    {
+      "id": 90750309,
+      "musicUpload": null,
+      "musicPath": "backgroundMusicAudio-55212592",
+      "refName": "Outside gate music"
+    },
+    {
+      "id": 22371042,
+      "musicUpload": null,
+      "musicPath": "backgroundMusicAudio-57372453",
+      "refName": "End Screen Music"
+    }
+  ],
+  "closeUpImages": [],
+  "imageLibrary": [
+    {
+      "id": 29061704,
+      "imageUpload": null,
+      "imagePath": "imageLibrary49336172.png",
+      "refName": "Left Arrow"
+    },
+    {
+      "id": 55893157,
+      "imageUpload": null,
+      "imagePath": "imageLibrary43949465.png",
+      "refName": "Right Arrow"
+    },
+    {
+      "id": 74755820,
+      "imageUpload": null,
+      "imagePath": "imageLibrary61940260.png",
+      "refName": "Instructions Bground 01"
+    },
+    {
+      "id": 52358659,
+      "imageUpload": null,
+      "imagePath": "imageLibrary80553926.png",
+      "refName": "Instructions Bground 02"
+    },
+    {
+      "id": 1121269,
+      "imageUpload": null,
+      "imagePath": "imageLibrary4541867.png",
+      "refName": "Instructions Bground 03"
+    },
+    {
+      "id": 17166819,
+      "imageUpload": null,
+      "imagePath": "imageLibrary30195839.png",
+      "refName": "Instructions Bground 04"
+    }
+  ],
+  "documents": [],
+  "toDoLists": [],
+  "foleySounds": {
+    "musicPath": "foleySoundsAudio48164037",
+    "soundUpload": null,
+    "items": [
+      {
+        "id": "wavesurfer_a1rrc1mp268",
+        "refName": "Tap",
+        "start": 0.6533728421458145,
+        "duration": 0.12666894150406371
+      },
+      {
+        "id": "wavesurfer_47bc3ue16h8",
+        "refName": "Open Inventory",
+        "start": 1.766764153942523,
+        "duration": 1.3200771172127381
+      },
+      {
+        "id": "wavesurfer_eo3ko3qc0p8",
+        "refName": "Clock Tick",
+        "start": 3.5535343359087563,
+        "duration": 0.23334653237674763
+      },
+      {
+        "id": "wavesurfer_eqemfs36jqo",
+        "refName": "Footstep",
+        "start": 4.507065330750894,
+        "duration": 0.36003184594755666
+      },
+      {
+        "id": "wavesurfer_igsgkbkd2p",
+        "refName": "Monster Laugh",
+        "start": 6.473905970649583,
+        "duration": 5.480484766090583
+      },
+      {
+        "id": "wavesurfer_2r0d7q69jq",
+        "refName": "Gate Open",
+        "start": 15.58137822184148,
+        "duration": 0.9534176661203801
+      },
+      {
+        "id": "wavesurfer_6n32irjvceg",
+        "refName": "Gate Close",
+        "start": 18.081599374255067,
+        "duration": 1.2801132300357558
+      },
+      {
+        "id": "wavesurfer_dvad56d4ecg",
+        "refName": "Gate Unlock",
+        "start": 21.601910756853396,
+        "duration": 0.3000265382896323
+      }
+    ]
+  }
+}

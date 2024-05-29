@@ -1,0 +1,574 @@
+{
+    "frames": {
+        "LK_Girl_Character_IDLE_FRONT01.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT02.png": {
+            "frame": {
+                "x": 230,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT03.png": {
+            "frame": {
+                "x": 0,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT04.png": {
+            "frame": {
+                "x": 230,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT05.png": {
+            "frame": {
+                "x": 460,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT06.png": {
+            "frame": {
+                "x": 460,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT07.png": {
+            "frame": {
+                "x": 0,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT08.png": {
+            "frame": {
+                "x": 230,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT09.png": {
+            "frame": {
+                "x": 460,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT10.png": {
+            "frame": {
+                "x": 690,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT11.png": {
+            "frame": {
+                "x": 690,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT12.png": {
+            "frame": {
+                "x": 690,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT13.png": {
+            "frame": {
+                "x": 0,
+                "y": 690,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT14.png": {
+            "frame": {
+                "x": 230,
+                "y": 690,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT15.png": {
+            "frame": {
+                "x": 460,
+                "y": 690,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT16.png": {
+            "frame": {
+                "x": 690,
+                "y": 690,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT17.png": {
+            "frame": {
+                "x": 920,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT18.png": {
+            "frame": {
+                "x": 920,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT19.png": {
+            "frame": {
+                "x": 920,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT20.png": {
+            "frame": {
+                "x": 920,
+                "y": 690,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT21.png": {
+            "frame": {
+                "x": 0,
+                "y": 920,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT22.png": {
+            "frame": {
+                "x": 230,
+                "y": 920,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT23.png": {
+            "frame": {
+                "x": 460,
+                "y": 920,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT24.png": {
+            "frame": {
+                "x": 690,
+                "y": 920,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT25.png": {
+            "frame": {
+                "x": 920,
+                "y": 920,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT26.png": {
+            "frame": {
+                "x": 1150,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT27.png": {
+            "frame": {
+                "x": 1150,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_IDLE_FRONT28.png": {
+            "frame": {
+                "x": 1150,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "playableCharacterAnimation3895735.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1380,
+            "h": 1150
+        },
+        "scale": 1
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "frames": {
+        "LK_Girl_Character_STAND_LEFT01.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT02.png": {
+            "frame": {
+                "x": 230,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT03.png": {
+            "frame": {
+                "x": 0,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT04.png": {
+            "frame": {
+                "x": 230,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT05.png": {
+            "frame": {
+                "x": 460,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT06.png": {
+            "frame": {
+                "x": 460,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT07.png": {
+            "frame": {
+                "x": 0,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT08.png": {
+            "frame": {
+                "x": 230,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT09.png": {
+            "frame": {
+                "x": 460,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT10.png": {
+            "frame": {
+                "x": 690,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT11.png": {
+            "frame": {
+                "x": 690,
+                "y": 230,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        },
+        "LK_Girl_Character_STAND_LEFT12.png": {
+            "frame": {
+                "x": 690,
+                "y": 460,
+                "w": 230,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 230,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 230,
+                "h": 230
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "playableCharacterAnimation16593118.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 920,
+            "h": 690
+        },
+        "scale": 1
+    }
+}

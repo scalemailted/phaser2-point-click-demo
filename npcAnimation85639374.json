@@ -1,0 +1,494 @@
+{
+    "frames": {
+        "cat_yawning01.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning02.png": {
+            "frame": {
+                "x": 192,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning03.png": {
+            "frame": {
+                "x": 0,
+                "y": 128,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning04.png": {
+            "frame": {
+                "x": 192,
+                "y": 128,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning05.png": {
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning06.png": {
+            "frame": {
+                "x": 192,
+                "y": 256,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning07.png": {
+            "frame": {
+                "x": 384,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning08.png": {
+            "frame": {
+                "x": 384,
+                "y": 128,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning09.png": {
+            "frame": {
+                "x": 384,
+                "y": 256,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning10.png": {
+            "frame": {
+                "x": 0,
+                "y": 384,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning11.png": {
+            "frame": {
+                "x": 192,
+                "y": 384,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning12.png": {
+            "frame": {
+                "x": 384,
+                "y": 384,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning13.png": {
+            "frame": {
+                "x": 576,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning14.png": {
+            "frame": {
+                "x": 576,
+                "y": 128,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning15.png": {
+            "frame": {
+                "x": 576,
+                "y": 256,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning16.png": {
+            "frame": {
+                "x": 576,
+                "y": 384,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning17.png": {
+            "frame": {
+                "x": 0,
+                "y": 512,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning18.png": {
+            "frame": {
+                "x": 192,
+                "y": 512,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning19.png": {
+            "frame": {
+                "x": 384,
+                "y": 512,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning20.png": {
+            "frame": {
+                "x": 576,
+                "y": 512,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning21.png": {
+            "frame": {
+                "x": 0,
+                "y": 640,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning22.png": {
+            "frame": {
+                "x": 192,
+                "y": 640,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning23.png": {
+            "frame": {
+                "x": 384,
+                "y": 640,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        },
+        "cat_yawning24.png": {
+            "frame": {
+                "x": 576,
+                "y": 640,
+                "w": 192,
+                "h": 128
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 192,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 192,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "npcAnimation85639374.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 768,
+            "h": 768
+        },
+        "scale": 1
+    }
+}

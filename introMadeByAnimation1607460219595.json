@@ -1,0 +1,214 @@
+{
+    "frames": {
+        "LK_Flamingo_100_0.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_1.png": {
+            "frame": {
+                "x": 304,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_2.png": {
+            "frame": {
+                "x": 0,
+                "y": 304,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_3.png": {
+            "frame": {
+                "x": 304,
+                "y": 304,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_4.png": {
+            "frame": {
+                "x": 608,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_5.png": {
+            "frame": {
+                "x": 608,
+                "y": 304,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_6.png": {
+            "frame": {
+                "x": 0,
+                "y": 608,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_7.png": {
+            "frame": {
+                "x": 304,
+                "y": 608,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_8.png": {
+            "frame": {
+                "x": 608,
+                "y": 608,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        },
+        "LK_Flamingo_100_9.png": {
+            "frame": {
+                "x": 912,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 304,
+                "h": 304
+            },
+            "sourceSize": {
+                "w": 304,
+                "h": 304
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "introMadeByAnimation1607460219595.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1216,
+            "h": 912
+        },
+        "scale": 1
+    }
+}
